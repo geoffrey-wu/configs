@@ -28,7 +28,7 @@ function fish_prompt
 
     echo -n "$prompt_status"
 
-    set_color --bold 86ffff
+    set_color 86ffff
     echo -n ' $ '
     set_color normal
 end
